@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_detail_graph"
+    app:startDestination="@id/taskDetail1">
+
+    <fragment
+        android:id="@+id/taskDetail1"
+        android:name="com.example.ultimatesolution.ui.home.taskUi.TaskDetail1"
+        android:label="fragment_task_detail1"
+        tools:layout="@layout/fragment_task_detail1" >
+        <action
+            android:id="@+id/action_taskDetail1_to_taskDetailSummary"
+            app:destination="@id/taskDetailSummary"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/taskDetail1"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDetailSummary"
+        android:name="com.example.ultimatesolution.ui.home.taskUi.TaskDetailSummary"
+        android:label="fragment_task_detail_summary"
+        tools:layout="@layout/fragment_task_detail_summary" />
+</navigation>

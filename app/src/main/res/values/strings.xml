@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ultimate Solution</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--to toggle the open close button
+       of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_task_detail">TaskDetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="aboutTxt"><br/>Ultimate Solutions is a trusted marketplace for people and businesses to outsource their tasks, whether you are looking for work or you need someone to do a specific task we are here to help you hire. Skilled people can earn extra income through our website or mobile app.
+<br/><br/> Through Ultimate Solutions you have an ease of access to different individuals whom you find fit for the job. It works in 3 simple steps. Just post the required task to be done, chose the right person for your job by checking ratings, and wait for it to be done.</string>
+
+    <string name="contactTxt">Ultimate Solutions is helping thousands of people to do business. Our customer support team is available from 09:30 am to 12:00 am (monday to friday), we are passionate about our community platform as well as our members and it shows in the quality of service that we provide. We are always happy to help you in finding the best solutions for all your needs. If you have any question about our platform or services contact our support team.<br/><br/>
+        <b>Please Email us using the contact form or call us.</b>
+
+    </string>
+</resources>
